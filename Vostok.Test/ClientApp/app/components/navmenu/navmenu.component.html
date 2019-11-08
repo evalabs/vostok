@@ -1,0 +1,9 @@
+<div class="panel panel-default">
+    <div class="panel-body" style="min-height: 500px">
+        <ul class="nav navbar-nav">
+            <li [routerLinkActive]="['link-active']" *ngFor="let item of Orders">
+                <a [routerLink]="['/view', item.id]" class="pull-left">{{ item.number }} (<small>{{ item.dateFormated }}</small>)</a>
+            </li>
+        </ul>
+    </div>
+</div>
