@@ -1,7 +1,8 @@
 # vostok
-Проект выполнен в связке Angular 4 + ASP.NET Core 2.0
-Среда разработки Visual Studio 2017
-В качестве базы данны используется MS SQL Server. Строка подключения находится в файле Vostok.Test/appsettings.json.
+Проект выполнен в связке Angular 4 + ASP.NET Core 2.0.
+Среда разработки Visual Studio 2017. 
+В качестве базы данных используется MS SQL Server. Строка подключения находится в файле Vostok.Test/appsettings.json. 
+Базу можно восстановить из миграций, или из файла Vostok.Test/Database.sql (там всего 2 таблицы).
 Реализовано:
 - добавление заказа
 - удаление заказа
